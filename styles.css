@@ -1,0 +1,33 @@
+body {
+    margin: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.card {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+
+    background-color:antiquewhite;
+    border-radius: 15%;
+    box-shadow: 10px 5px 5px black;
+    
+    width: 400px;
+    padding: 20px;
+}
+
+.avatar_png {
+    width: 150px;
+
+}
+
+.card_main {
+    display: flex;
+    flex-direction: column;
+}
+
+@media (hover: hover) {
+    .card:hover {
+        background-color: blanchedalmond;
+    }
+}
